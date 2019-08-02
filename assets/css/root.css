@@ -1,0 +1,70 @@
+:root{
+    --font_text:'less-normale';
+    --font_title:'less-bold';
+}
+
+@font-face{
+    font-family:'less-normale';
+    src: url('../Less.otf') format('opentype')
+  }
+  @font-face{
+    font-family:'less-light';
+    src: url('../Less-Light.otf') format('opentype')
+  }
+  @font-face{
+    font-family:'less-bold';
+    src: url('../Oduda.otf') format('opentype')
+  }
+
+h1,h2,h3{margin: 0 !important;}
+a,li{list-style: none;}
+a{text-decoration: none; cursor: pointer;}
+
+h1,h2,h3,h4{
+    font-family: var(--font_title); 
+    font-size: 2.8rem;
+    /* -webkit-text-stroke: .8px #1b003a;
+    color: transparent; */
+    
+}
+a,p{
+    font-family: var(--font_text);
+    letter-spacing: .4px;
+    line-height: 1.65rem;
+    font-size: 1rem;
+    -webkit-animation: fadeIn 2s;
+	-moz-animation: fadeIn 2s;
+	animation:fadeIn 2s;
+}
+
+button{
+    font-family: var(--font_text);
+        letter-spacing: .4px;
+    }
+
+.grl{
+    width: 100%;
+    height: 100vmax;
+    margin: 0 auto;
+}
+
+.cont{
+    width: 90%;
+    padding-top: 1.1rem;
+    height: calc(86vmax - 1.1rem);
+    margin: 0 auto;
+    /* border: solid 1px whitesmoke; */
+}
+
+.resicon{
+    background-repeat: none;
+    background-size: 100% 100%;
+    width: 68%;
+    margin: 0 auto;
+}
+
+@keyframes fadeIn{
+	from{opacity: 0;}
+	to{opacity: 1;}
+}
+
