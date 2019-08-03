@@ -400,4 +400,4 @@
 
 })( window );
 
-new ElastiStack( document.getElementById( 'elasticstack' ) );
+/*new ElastiStack( document.getElementById( 'elasticstack' ) );*/
