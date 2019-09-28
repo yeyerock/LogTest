@@ -50,9 +50,6 @@ const messages = {
       },
       weare:{
         title:'Nosotros',
-        gonzalo: 'Gonzalo | Developer',
-        jose: 'José | Developer',
-        erik: 'Erik | Project Lead'
       },
       services:{
         title:'Servicios',
@@ -74,12 +71,12 @@ const messages = {
 
         currentNumber:0,
         timer:null,
-        esidiom:true,
-        enidiom:false,
+        esidiom:false,
+        enidiom:true,
       }
     },
     mounted() {
-      this.starRotation();
+      // this.starRotation();
     },
     methods: {
       starRotation(){this.timer = setInterval(this.next, 10000);},
@@ -112,9 +109,7 @@ const messages = {
 
       currentTxen(){
         return this.bantxten[Math.abs(this.currentNumber) % this.bantxten.length];
-      },
-
-     
+      }
 
     },
 }
@@ -123,9 +118,8 @@ const messages = {
 
 //VueI18n
 const i18n = new VueI18n({
-    locale: 'es', // set locale
+    locale: 'en', // set locale
     messages,
-    
   })
 
   var router = new VueRouter({
@@ -135,6 +129,7 @@ const i18n = new VueI18n({
       {path:'/weare', name:'weare', component:Weare},
       {path:'/services', name:'services', component:Services},
       {path:'/projects', name:'projects', component:Projects},
+      {path:'/contact', name:'contact', component:Contact},
       {path: '*', component: Notfound },
     ]
   });
@@ -148,7 +143,6 @@ const i18n = new VueI18n({
     i18n,
     components:{
     Services,
-    Weare
     //  messages,
     },
 

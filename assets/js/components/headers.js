@@ -4,44 +4,18 @@ Vue.component('headers',{
     <div>
         <header>
             <div class="headers">
-            <ul>
-                <li v-on:click="navhome">
-                    <div id="on" class="resicon"></div>
-                </li>
-                <li v-on:click="navweare">
-                    <div id="tw" class="resicon"></div>
-                </li>
-                <li v-on:click="navserv">
-                    <div id="th" class="resicon"></div>
-                </li>
-                <li v-on:click="navproy">
-                    <div id="fo" class="resicon"></div>
-                </li>
-                <li v-on:click="navcont">
-                    <div id="fi" class="resicon"></div>
-                </li>
-            </ul>
+                <router-link to="/" tag="li" id="on" class=
+                "sback"></router-link>
+                <router-link to="/weare" tag="li" id="tw" class=
+                "sback"></router-link>
+                <router-link to="/services" tag="li" id="th" class=
+                "sback"></router-link>
+                <router-link to="/projects" tag="li" id="fo" class=
+                "sback"></router-link>
+                <router-link to="/contact" tag="li" id="fi" class=
+                "sback"></router-link>
         </div>
         </header>
     </div>
-    `,
-    data() {
-        return {
-            active:true,
-        }
-    },
-    mounted() {
-        
-    },
-    methods:{
-        navhome(){router.push('/');},
-        navweare(){router.push('/weare');},
-        navserv(){
-            this.$router.push({
-                name: 'services',
-            }) 
-        },
-        navproy(){router.push('/projects')},
-        navcont(){router.push('/contact')},
-    },
+    `
 })

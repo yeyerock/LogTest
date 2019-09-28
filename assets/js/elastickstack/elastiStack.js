@@ -398,6 +398,9 @@
 	// add to global namespace
 	window.ElastiStack = ElastiStack;
 
+	
+
 })( window );
 
-/*new ElastiStack( document.getElementById( 'elasticstack' ) );*/
+new ElastiStack( document.getElementById( 'elasticstack' ) );
+

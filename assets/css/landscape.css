@@ -1,0 +1,113 @@
+/*******     Landscape   ******/
+@media only screen 
+ and (min-device-width:25rem) 
+ and (max-device-width:50rem)
+ and (orientation:landscape)
+ and (-webkit-min-device-pixel-ratio : 2){
+
+    .cont {width: 90%;padding-top: 1rem;
+        height: calc(49vmax - 1rem);
+    }
+/* ---------------------------------
+H E A D E R
+--------------------------------- */
+header .headers{width:68%;height: 8.5vw;}
+.headers li{margin: 0 1rem; }
+
+/* ---------------------------------
+B A N N E R
+--------------------------------- */
+.grl {height: 56.3vmax;}
+.banner{grid-template-rows: 30% 70%; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1357.62 768'%3E%3Cdefs%3E%3Cstyle%3E .cls-1, .cls-2 %7B fill: none;%0Astroke-width:2px; %7D .ojos-izq%7B stroke: %233EB991; stroke-dasharray: 600; stroke-dashoffset: 0; %7D .ojo.izq%7B animation: draw 5s alternate-reverse; animation-fill-mode: forwards; animation-iteration-count: infinite; animation-timing-function: ease-in; %7D %23ojo-izq2%7B animation: draw 8s alternate-reverse; animation-fill-mode: forwards; animation-iteration-count: infinite; animation-timing-function: ease-in; %7D .brazo-izq%7B stroke: %233F544B; stroke-dasharray: 600; stroke-dashoffset: 0; animation: draw 8s alternate-reverse; animation-fill-mode: forwards; animation-iteration-count: infinite; animation-timing-function: ease-in; %7D .brazo-der%7B stroke: %234A434F; stroke-dasharray: 600; stroke-dashoffset: 0; animation: draw 8s alternate-reverse; animation-fill-mode: forwards; animation-iteration-count: infinite; animation-timing-function: ease-in; %7D .ojos-der%7B stroke: %236B5B75; stroke-dasharray: 600; stroke-dashoffset: 0; %7D .ojo-der%7B animation: draw 5s alternate-reverse; animation-fill-mode: forwards; animation-iteration-count: infinite; animation-timing-function: ease-in; %7D %23ojo-der2%7B animation: draw 8s alternate-reverse; animation-fill-mode: forwards; animation-iteration-count: infinite; animation-timing-function: ease-in; %7D .centro-ojos%7B stroke: rgba(49, 48, 48, 0.459); fill: rgba(49, 48, 48, 0.459); stroke-dasharray: 600; stroke-dashoffset: 0; animation: draw 4s alternate-reverse; animation-fill-mode: forwards; animation-iteration-count: infinite; animation-timing-function: ease-in; %7D @keyframes draw %7B to %7B stroke-dashoffset: 2000; fill: none; %7D %7D %3C/style%3E%3C/defs%3E%3Ctitle%3EEscritorio%3C/title%3E%3Cg id='tope'%3E%3Cline class='cls-1' y1='145.43' x2='1036.5' y2='145.43'/%3E%3Cline class='cls-1' x1='1305' y1='359' x2='1305' y2='768'/%3E%3Cline class='cls-1' x1='1055' y1='53' x2='1055'/%3E%3C/g%3E%3Cg id='brazo-izq'%3E%3Cpath class='cls-2 brazo-izq' d='M1120.49,238.62h-71.06c-7.32-1.54-11.49-5.52-12.43-12V67.15c1.78-18.87,35.53-18.87,37.3,0v132h23.09v12c.89,5.14,5.27,15.74,10.66,20.58A42.16,42.16,0,0,0,1120.49,238.62Z' transform='translate(-0.5 -0.5)'/%3E%3C/g%3E%3Cg id='ojo-izq'%3E%3Crect class='cls-2 ojos-izq' x='1119.1' y='129.77' width='85.26' height='88.82' rx='8'/%3E%3Cpath id='ojo-izq2' class='cls-2 ojos-izq' d='M1210.19,180c.56,9.29,4.65,14,14.24,14.21v16c0,19.54-22.32,30.2-29.18,30.2h-67c-16.33.06-31.54-18.22-30.91-32v-67.5c3.44-18.42,14-30,32.62-33.75h63.52c19.07,4.71,29,16.27,31.76,32.86v24C1214.07,165,1210.19,172.9,1210.19,180Z' transform='translate(-0.5 -0.5)'/%3E%3C/g%3E%3Cg id='ojo-der'%3E%3Crect class='cls-2 ojos-der' x='1246.99' y='129.77' width='87.04' height='88.82' rx='8'/%3E%3Cpath id='ojo-der2' class='cls-2 ojos-der' d='M1242.16,180c0,8.88-5.33,14.21-16,14.21v16c0,19.54,23.09,30.2,30.19,30.2h69.28c16-1.78,32-19.54,32-32v-67.5c-3.55-18.42-14.43-30-33.75-33.75h-65.72c-19.74,4.71-30,16.27-32.86,32.86v24C1236.89,165,1241.93,170.75,1242.16,180Z' transform='translate(-0.5 -0.5)'/%3E%3C/g%3E%3Cg id='brazo-der'%3E%3Cpath class='cls-2 brazo-der' d='M1352.29,222.64V300.8a45.23,45.23,0,0,1-8.88,28.42c-6.72,10.16-17.33,19.52-30.19,28.42a39.49,39.49,0,0,1-16,1.77c-10.66-3.55-16-21.31-5.33-30.19,12.88-8.79,21.4-19,21.32-32V240.4h14.21C1337.29,237.82,1345.64,232,1352.29,222.64Z' transform='translate(-0.5 -0.5)'/%3E%3C/g%3E%3Cg id='centro-ojos'%3E%3Ccircle class='cls-2 centro-ojos' cx='1159.95' cy='188.39' r='17.76'/%3E%3Ccircle class='cls-2 centro-ojos' cx='1293.18' cy='188.39' r='17.76'/%3E%3C/g%3E%3C/svg%3E%0A");}
+
+/* ---------------------------------
+WE - A R E
+--------------------------------- */
+.weare{grid-template-rows: 10% 90%;}
+.weare h1{text-align: left !important;font-size: 2.7rem;}
+.elasticstack {width: 37%;height: 58vh;}
+.elasticstack li .foto{background-size: 80%;height: 100% !important;
+    background-position: center center;
+}
+.elasticstack li .titulo-foto{height: 2.8rem;}
+
+/* ---------------------------------
+S E R V I C E S
+--------------------------------- */
+.services h1{text-align: left;font-size: 2.7rem;}
+.services .box{flex: 0 0 60%;margin: 1rem .7rem auto;}
+.box:hover .contbx{padding-top: 1rem;}
+
+/* ---------------------------------
+P R O J E C T S
+--------------------------------- */
+.projects h1{text-align: left;font-size: 2.7rem;
+}
+
+.cont-proyectos{height: 60vh;}
+
+.cont-proyectos a{height: 30%;flex: 0 0 20%;}
+
+/* ---------------------------------
+C O N T A C T
+--------------------------------- */
+.contenedor-iconos{width: 65%;}
+.contact{grid-template-rows: 48% 20% 30%;}
+.contact h1{text-align: left;font-size: 2.7rem;}
+
+}
+
+@media only screen 
+ and (min-device-width:50.1rem) 
+ and (max-device-width:55rem)
+ and (orientation:landscape)
+ and (-webkit-min-device-pixel-ratio : 2){
+
+    .cont {width: 90%;padding-top: 1rem;height: calc(38vmax - 1rem);}
+    /* ---------------------------------
+        H E A D E R
+    --------------------------------- */
+    header .headers{width:60% !important;height: 7.5vw !important;
+    }
+    /* ---------------------------------
+        B A N N E R
+    --------------------------------- */
+
+    .grl {height: 46.2vmax;}
+    .banner{grid-template-rows: 20% 80%; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1357.62 768'%3E%3Cdefs%3E%3Cstyle%3E .cls-1, .cls-2 %7B fill: none;%0Astroke-width:2px; %7D .ojos-izq%7B stroke: %233EB991; stroke-dasharray: 600; stroke-dashoffset: 0; %7D .ojo.izq%7B animation: draw 5s alternate-reverse; animation-fill-mode: forwards; animation-iteration-count: infinite; animation-timing-function: ease-in; %7D %23ojo-izq2%7B animation: draw 8s alternate-reverse; animation-fill-mode: forwards; animation-iteration-count: infinite; animation-timing-function: ease-in; %7D .brazo-izq%7B stroke: %233F544B; stroke-dasharray: 600; stroke-dashoffset: 0; animation: draw 8s alternate-reverse; animation-fill-mode: forwards; animation-iteration-count: infinite; animation-timing-function: ease-in; %7D .brazo-der%7B stroke: %234A434F; stroke-dasharray: 600; stroke-dashoffset: 0; animation: draw 8s alternate-reverse; animation-fill-mode: forwards; animation-iteration-count: infinite; animation-timing-function: ease-in; %7D .ojos-der%7B stroke: %236B5B75; stroke-dasharray: 600; stroke-dashoffset: 0; %7D .ojo-der%7B animation: draw 5s alternate-reverse; animation-fill-mode: forwards; animation-iteration-count: infinite; animation-timing-function: ease-in; %7D %23ojo-der2%7B animation: draw 8s alternate-reverse; animation-fill-mode: forwards; animation-iteration-count: infinite; animation-timing-function: ease-in; %7D .centro-ojos%7B stroke: rgba(49, 48, 48, 0.459); fill: rgba(49, 48, 48, 0.459); stroke-dasharray: 600; stroke-dashoffset: 0; animation: draw 4s alternate-reverse; animation-fill-mode: forwards; animation-iteration-count: infinite; animation-timing-function: ease-in; %7D @keyframes draw %7B to %7B stroke-dashoffset: 2000; fill: none; %7D %7D %3C/style%3E%3C/defs%3E%3Ctitle%3EEscritorio%3C/title%3E%3Cg id='tope'%3E%3Cline class='cls-1' y1='145.43' x2='1036.5' y2='145.43'/%3E%3Cline class='cls-1' x1='1305' y1='359' x2='1305' y2='768'/%3E%3Cline class='cls-1' x1='1055' y1='53' x2='1055'/%3E%3C/g%3E%3Cg id='brazo-izq'%3E%3Cpath class='cls-2 brazo-izq' d='M1120.49,238.62h-71.06c-7.32-1.54-11.49-5.52-12.43-12V67.15c1.78-18.87,35.53-18.87,37.3,0v132h23.09v12c.89,5.14,5.27,15.74,10.66,20.58A42.16,42.16,0,0,0,1120.49,238.62Z' transform='translate(-0.5 -0.5)'/%3E%3C/g%3E%3Cg id='ojo-izq'%3E%3Crect class='cls-2 ojos-izq' x='1119.1' y='129.77' width='85.26' height='88.82' rx='8'/%3E%3Cpath id='ojo-izq2' class='cls-2 ojos-izq' d='M1210.19,180c.56,9.29,4.65,14,14.24,14.21v16c0,19.54-22.32,30.2-29.18,30.2h-67c-16.33.06-31.54-18.22-30.91-32v-67.5c3.44-18.42,14-30,32.62-33.75h63.52c19.07,4.71,29,16.27,31.76,32.86v24C1214.07,165,1210.19,172.9,1210.19,180Z' transform='translate(-0.5 -0.5)'/%3E%3C/g%3E%3Cg id='ojo-der'%3E%3Crect class='cls-2 ojos-der' x='1246.99' y='129.77' width='87.04' height='88.82' rx='8'/%3E%3Cpath id='ojo-der2' class='cls-2 ojos-der' d='M1242.16,180c0,8.88-5.33,14.21-16,14.21v16c0,19.54,23.09,30.2,30.19,30.2h69.28c16-1.78,32-19.54,32-32v-67.5c-3.55-18.42-14.43-30-33.75-33.75h-65.72c-19.74,4.71-30,16.27-32.86,32.86v24C1236.89,165,1241.93,170.75,1242.16,180Z' transform='translate(-0.5 -0.5)'/%3E%3C/g%3E%3Cg id='brazo-der'%3E%3Cpath class='cls-2 brazo-der' d='M1352.29,222.64V300.8a45.23,45.23,0,0,1-8.88,28.42c-6.72,10.16-17.33,19.52-30.19,28.42a39.49,39.49,0,0,1-16,1.77c-10.66-3.55-16-21.31-5.33-30.19,12.88-8.79,21.4-19,21.32-32V240.4h14.21C1337.29,237.82,1345.64,232,1352.29,222.64Z' transform='translate(-0.5 -0.5)'/%3E%3C/g%3E%3Cg id='centro-ojos'%3E%3Ccircle class='cls-2 centro-ojos' cx='1159.95' cy='188.39' r='17.76'/%3E%3Ccircle class='cls-2 centro-ojos' cx='1293.18' cy='188.39' r='17.76'/%3E%3C/g%3E%3C/svg%3E%0A");}
+
+    .bb2 h1{font-size: 2.8rem !important;}
+    .bb2 p{font-size: 1rem !important;}
+    .bb2 button{margin-top: .5rem !important;padding: .4rem 1.4rem !important;
+        font-size: 1.2rem !important;
+    }
+    .weare{grid-template-rows: 1% 99% !important;}
+    .weare h1{font-size: 3rem !important; text-align: start;}
+    .container .elasticstack{width: 32% !important;
+        height: 60vh !important;
+    }
+    .elasticstack li .titulo-foto{height: 3rem !important;}
+    .elasticstack li .titulo-foto h5{font-size: 1.1rem !important;}
+
+    .services {grid-template-rows: 20% 80% 0% !important;}
+    .services h1{font-size: 3rem !important; text-align: start;}
+    .services .box{flex: 0 0 45% !important;}
+    .services p{font-size: .7rem !important;letter-spacing: .9px !important;
+        line-height: 2.4rem !important;
+    }
+    .services .cardtit{font-size: 2rem !important;line-height: 3.5rem !important;
+    }
+    .box:hover .contbx{padding-top: .8rem !important;}
+    .box:hover .contbx h1{line-height: 2.1rem !important;}
+    .box:hover .contbx p{line-height: 1.5rem !important;}
+
+     .projects h1{font-size: 3rem !important; text-align: start;}
+     .cont-proyectos{height: 28vmax;}
+     .cont-proyectos a{flex: 0 0 18% !important;height: 5.5vmax !important;}
+
+     .contact{grid-template-rows: 20% 70% 10%;}
+     .contact h1{font-size: 3rem !important; text-align: start;}
+     .contenedor-iconos{width: 60% !important;}
+     .icono-contacto {width: 50px !important;height: 50px !important;}
+     
+ }
